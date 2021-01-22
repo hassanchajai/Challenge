@@ -4,12 +4,32 @@
 int inttobin(int A, int B)
 {
 
+<<<<<<< HEAD
+	int A[8],B,i;
+
+	printf("Enter the number: ");
+	scanf("%d",&B);
+	for(i=0;B>0;i++)
+	{
+	A[i]=B%2;
+	B=B/2;
+	}
+	printf("\n Binary Number is ==> ");
+	for(i=i-1;i>=0;i--)
+	{
+	printf("%d",A[i]);
+	}
+=======
 
 
+>>>>>>> 611179847a5401acbf4f281336297c990041f10b
 
 }
 
 
+<<<<<<< HEAD
+int convertBinToInt(char num[4]){
+=======
 void convertBinToInt(char num[4]){
 
 int n, c, k;
@@ -31,6 +51,7 @@ int n, c, k;
 
   printf("\n");
 
+>>>>>>> 611179847a5401acbf4f281336297c990041f10b
 
 
 }

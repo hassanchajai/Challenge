@@ -4,7 +4,11 @@
 int convertBinToInt(char num[4]){
 
 }
+<<<<<<< HEAD
 // test 2
+=======
+//test
+>>>>>>> hassan
 //gjsxvajhx
 int main()
 {

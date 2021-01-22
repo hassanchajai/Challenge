@@ -36,6 +36,19 @@ int n, c, k;
 
 }
 
+<<<<<<< HEAD
+=======
+int intsomme(char num[4]){
+
+
+
+
+return ;
+
+}
+
+
+>>>>>>> origin/hamzatoon
 int main()
 {
 convertBinToInt("1234");

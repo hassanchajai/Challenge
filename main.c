@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int inttobin()
-{
+void inttobin(){
 
 
 	int A[8],B,i;
 
-	printf("Enter the number: ");
+	printf("Enter the number: \n");
 	scanf("%d",&B);
 	for(i=0;B>0;i++)
 	{
@@ -25,11 +24,7 @@ int inttobin()
 
 
 }
-
-
-
-
-void convertBinToInt(char num[4]){
+void convertBinToInt(){
 
 int n, c, k;
 
@@ -77,7 +72,38 @@ printf("%d",a[i]);
 
 int main()
 {
-convertBinToInt("1234");
+int choix =0;
+
+printf("\t-------------MENU--------------\n");
+printf("\t|   1-CONVERT ENTIER TO BIN   |\n");
+printf("\t|   2-Somme BIN               |\n");
+printf("\t|   3-CONVERT Bin TO entier   |\n");
+
+
+
+
+printf("entre votre choix \n");
+scanf("%d",&choix);
+
+switch(choix){
+case 2:
+    {
+        sa();
+        break ;
+    }
+case 3:
+    {
+        convertBinToInt();
+        break ;
+    }
+case 1:
+    {
+        inttobin();
+        break ;
+    }
+}
+
+
 
     return 0;
 }

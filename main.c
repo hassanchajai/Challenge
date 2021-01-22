@@ -1,8 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int intsomme();
 int main()
 {
-    printf("Hello world!\n");
-    return 0;
+
+
+
+
+
+
+}
+
+
+int intsomme(int a ,int b ){
+
+
+    printf("entre le numbre" );
+    scanf("%d",&a);
+
+
+return 0 ;
 }

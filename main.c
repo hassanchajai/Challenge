@@ -1,13 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-<<<<<<< HEAD
 int convertBinToInt(char num[4]){
 
 
 return 0;
 }
-=======
 int inttobin(int A, int B)
 {
 
@@ -18,7 +15,6 @@ scanf("%d",&n);
 
 }
 
->>>>>>> origin/walid
 int main()
 {
 

@@ -19,8 +19,7 @@ int n, c, k;
 
   printf("%d in binary number system is:\n", n);
 
-  for (c = 3
-       ; c >= 0; c--)
+  for (c = 3; c >= 0; c--)
   {
     k = n >> c;
 
@@ -35,9 +34,6 @@ int n, c, k;
 
 
 }
-
-<<<<<<< HEAD
-=======
 int intsomme(char num[4]){
 
 
@@ -46,9 +42,6 @@ int intsomme(char num[4]){
 return ;
 
 }
-
-
->>>>>>> origin/hamzatoon
 int main()
 {
 convertBinToInt("1234");

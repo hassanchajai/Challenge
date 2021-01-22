@@ -5,7 +5,7 @@ int convertBinToInt(char num[4]){
 
 }
 
-
+//gjsxvajhx
 int main()
 {
 

@@ -3,13 +3,9 @@
 
 int convertBinToInt(char num[4]){
 
+
+return 0;
 }
-<<<<<<< HEAD
-// test 2
-=======
-//test
->>>>>>> hassan
-//gjsxvajhx
 int main()
 {
 

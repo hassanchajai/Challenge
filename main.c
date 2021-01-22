@@ -25,7 +25,7 @@ int inttobin(int A, int B)
 >>>>>>> 611179847a5401acbf4f281336297c990041f10b
 
 }
-
+bhkbh
 
 <<<<<<< HEAD
 int convertBinToInt(char num[4]){

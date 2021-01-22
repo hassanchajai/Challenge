@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int inttobin(int A, int B)
+int inttobin()
 {
 
-<<<<<<< HEAD
+
 	int A[8],B,i;
 
 	printf("Enter the number: ");
@@ -19,17 +19,16 @@ int inttobin(int A, int B)
 	{
 	printf("%d",A[i]);
 	}
-=======
 
 
->>>>>>> 611179847a5401acbf4f281336297c990041f10b
+
+
 
 }
-bhkbh
 
-<<<<<<< HEAD
-int convertBinToInt(char num[4]){
-=======
+
+
+
 void convertBinToInt(char num[4]){
 
 int n, c, k;
@@ -43,13 +42,16 @@ int n, c, k;
   {
     k = n >> c;
 
-<<<<<<< HEAD
+
     if (k && 1 )
       printf("1");
     else
       printf("0");
   }
-=======
+
+
+}
+void sa(){
 int a[10],n,i;
 system ("cls");
 printf("Enter the number to convert: ");
@@ -66,22 +68,13 @@ printf("%d",a[i]);
 }
 
 }
->>>>>>> origin/hamzatoon
-
-  printf("\n");
-
->>>>>>> 611179847a5401acbf4f281336297c990041f10b
-
-
-}
-int intsomme(char num[4]){
 
 
 
 
-return ;
 
-}
+
+
 int main()
 {
 convertBinToInt("1234");

@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 int inttobin(int A, int B)
 {
 
+<<<<<<< HEAD
 	int A[8],B,i;
 
 	printf("Enter the number: ");
@@ -17,18 +19,60 @@ int inttobin(int A, int B)
 	{
 	printf("%d",A[i]);
 	}
+=======
+
+
+>>>>>>> 611179847a5401acbf4f281336297c990041f10b
 
 }
 
 
+<<<<<<< HEAD
 int convertBinToInt(char num[4]){
+=======
+void convertBinToInt(char num[4]){
+
+int n, c, k;
+
+  printf("Enter an integer in decimal number system\n");
+  scanf("%d", &n);
+
+  printf("%d in binary number system is:\n", n);
+
+  for (c = 3
+       ; c >= 0; c--)
+  {
+    k = n >> c;
+
+    if (k && 1 )
+      printf("1");
+    else
+      printf("0");
+  }
+
+  printf("\n");
+
+>>>>>>> 611179847a5401acbf4f281336297c990041f10b
 
 
-return 0;
 }
+
+<<<<<<< HEAD
+=======
+int intsomme(char num[4]){
+
+
+
+
+return ;
+
+}
+
+
+>>>>>>> origin/hamzatoon
 int main()
 {
+convertBinToInt("1234");
 
-    printf("Hello world!\n");
     return 0;
 }

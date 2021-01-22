@@ -15,6 +15,17 @@ int convertBinToInt(char num[4]){
 
 return 0;
 }
+
+int intsomme(char num[4]){
+
+
+
+
+return ;
+
+}
+
+
 int main()
 {
 

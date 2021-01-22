@@ -1,36 +1,44 @@
 #include <stdio.h>
 #include <stdlib.h>
-<<<<<<< HEAD
-=======
+
 int inttobin(int A, int B)
 {
 
-int A[10],B,i;
 
-printf("Enter the number: ");
-scanf("%d",&n);
+
 
 }
 
->>>>>>> 08e95ad5540266d9d8b052d8deb79042e1104836
-int convertBinToInt(char num[4]){
+
+void convertBinToInt(char num[4]){
+
+int n, c, k;
+
+  printf("Enter an integer in decimal number system\n");
+  scanf("%d", &n);
+
+  printf("%d in binary number system is:\n", n);
+
+  for (c = 3
+       ; c >= 0; c--)
+  {
+    k = n >> c;
+
+    if (k && 1 )
+      printf("1");
+    else
+      printf("0");
+  }
+
+  printf("\n");
 
 
-return 0;
-}
-int inttobin(int A, int B)
-{
-
-int A[10],B,i;
-
-printf("Enter the number: ");
-scanf("%d",&n);
 
 }
 
 int main()
 {
+convertBinToInt("1234");
 
-    printf("Hello world!\n");
     return 0;
 }
